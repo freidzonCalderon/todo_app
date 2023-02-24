@@ -27,7 +27,7 @@ const TodoForm = () => {
 	return (
 		<div className='card container-sm shadow-lg'>
 			<div className='container'>
-				<h1 className='text-center pt-5 pb-3'>My To Do's</h1>
+				<h1 className='text-center pt-5 pb-3'>My To-Do's</h1>
 				<form className='row' onSubmit={onSubmitHandler}>
 					<input
 						className='inputTodo form-control col'
